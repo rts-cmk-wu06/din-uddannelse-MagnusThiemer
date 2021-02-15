@@ -22,9 +22,14 @@ Ethvert projekt har brug for at være organiseret. At smide alle nye CSS-regel d
 **Lav en liste med templates**<br>
 Beskriv hvilke templates(ex. *header*) der skal udvikles, i første omgang koncentrerer vi os om den mobile udgave(se style guide). List herunder de templates du er kommet frem til skal udvikles. 
 
-1. xxx
-2. xxx
-3. xxx
+1. nav
+2. hero
+3. footer
+4. faktaboks
+5. kort-med-knap
+6. kort-fremhævet
+7. kort-uden-knap
+8. button-læs-mere (selvom det er et component og ikke et template)
 
 ### Mobile first
 ”Mobil først” betyder, som navnet antyder, at vi starter produktdesignet ved de små skærm på telefoner, som har flere begrænsninger og derefter viderudvikler vi produktet så der også er verioner der fungerer optimelt på tablet og eller desktop.
