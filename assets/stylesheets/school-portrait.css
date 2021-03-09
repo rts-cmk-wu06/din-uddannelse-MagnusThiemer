@@ -1,0 +1,108 @@
+article.school-portrait-page-article {
+    margin: 1.5rem;
+}
+
+.school-portrait-page-hero {
+    width: 100%; 
+    height: 58vw;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.school-portrait-page-hero img {
+    width: 100%;
+}
+
+.school-portrait-page-article h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.6rem;
+}
+
+.school-portrait-page-article p {
+    line-height: 1.625;
+    line-break:unset;
+}
+
+.full-width-visible {
+    display: none;
+}
+
+@media(min-width:1024px) {
+    .full-width-visible {
+        display: block;
+    }
+
+    .full-width-hidden {
+        display: none;
+    }
+
+    h2.full-width-visible {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        width: 1024px;
+        margin: 2rem auto;
+    }
+
+    .school-portrait-page-hero {
+        width: 1024px;
+        height: auto;
+        margin: 0 auto;
+        padding-right: 1.5rem;
+    }
+
+    .article-page-hero {
+        height: auto;
+        margin-bottom: 3rem;
+    }
+
+    article.school-portrait-page-article {
+        width: 1024px;
+        padding: 1.5rem;
+        padding-left: 0;
+        margin: 0 auto;
+    }
+
+    .article-bold {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .article-page-article p:last-of-type {
+        margin-bottom: 3rem;
+    }
+
+    .full-width-flex {
+        width: 1024px;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    .school-portrait-page-hero {
+        flex: 2;
+        padding-right: 0;
+    }
+
+    article.school-portrait-page-article {
+        flex: 1;
+        padding-top: 0;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .school-portrait-page-article p {
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .school-portrait-page-article .button-red {
+        align-self: flex-end;
+    }
+
+}

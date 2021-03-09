@@ -1,0 +1,80 @@
+.nav-template {
+    background-color: #c40000;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.nav-flex {
+    padding-top: 0.8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.nav-template img {
+    height: 2.5rem;
+    margin-bottom: 0.4rem;
+}
+
+.nav-template label {
+    cursor: pointer;
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-bottom: 0.4rem;
+}
+
+.fa-ellipsis-v {
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-left: 0.7rem;
+}
+
+.toggle-menu-list {
+    flex-basis: 100%;
+    display: none;
+}
+
+input#toggle-menu {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ ul.toggle-menu-list {
+    display: block;
+}
+
+ul.toggle-menu-list {
+    text-align: end;
+    list-style-type: none;
+}
+
+.toggle-menu-list li a {
+    text-decoration: none;
+    line-height: 1.625;
+    color: #ffffff;
+}
+
+@media(min-width:1024px) {
+    .toggle-menu-list {
+        flex-basis: 100%;
+        flex:1;
+        display: block;
+        justify-content: space-between;
+    }
+    nav label {
+        display: none;
+    } 
+    .toggle-menu-list li {
+        display: inline;
+        margin-left: 2rem;
+    }
+
+    .nav-flex {
+        width: 1024px;
+        margin: 0 auto;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

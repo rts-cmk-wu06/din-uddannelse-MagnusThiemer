@@ -1,0 +1,40 @@
+.footer-template {
+    background-color: #5d4646;
+    color: white;
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-template p {
+    line-height: 1.625;
+    margin: 0rem;
+}
+
+.footer-template p {
+    font-weight: bold;
+}
+
+.footer-template .copyright {
+    font-size: 0.7rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.footer-template address {
+    font-style: normal;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.footer-template .fa {
+    color: white;
+    display: inline;
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 14px;
+}

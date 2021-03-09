@@ -1,0 +1,50 @@
+.article-card-img {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100vw;
+    height: 58vw;
+}
+
+figure.article-card-img img {
+    width: 100%;
+}
+
+.article-card-article {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-card-article a {
+    margin-top: 2rem;
+    align-self: flex-end;
+}
+
+.article-card-article h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.6rem;
+}
+
+.article-card-article p {
+    line-height: 1.625;
+    line-break:unset;
+}
+
+@media(min-width:1024px) {
+    section.article-card {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .article-card-img {
+        flex-basis: 50%;
+        height: auto;
+        margin-bottom: 1.5rem;
+    }
+
+    .article-card-article {
+        flex-basis:50%;
+        justify-content: space-between;
+    }
+}
